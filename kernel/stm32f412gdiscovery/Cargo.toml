@@ -11,3 +11,4 @@ cortexm4 = { path = "../../tock/arch/cortex-m4" }
 capsules = { path = "../../tock/capsules" }
 kernel = { path = "../../tock/kernel" }
 stm32f412g = { path = "../../tock/chips/stm32f412g" }
+drivers = { path ="../drivers" }
