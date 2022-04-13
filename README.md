@@ -1,4 +1,4 @@
-# Project Name
+# Rust Tock 
 
 ## Getting Started
 
@@ -16,10 +16,19 @@ To set up the workspace, run:
 git submodule update --init
 ```
 
+To run Tock with renode use `renode stm32f4.resc`.
+
 ## Drivers
 
-Include here drivers that are specifically designed for your project.
+Write a driver that performs arithemtic and logic functions:
+ - addition, substraction, multiplication, division and reminder
+ - logic and, or
+
+Each action has a seperate command number. Numbers are sent using
+the command parameters.
+
 
 ## Applications
 
-Include here the applcations that are part of your project.
+Write the user space library for the driver
+
