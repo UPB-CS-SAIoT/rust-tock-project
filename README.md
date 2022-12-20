@@ -5,6 +5,8 @@
 Make sure you have set up all the tools required to 
 build [Tock](https://github.com/tock/tock) and [libtock-c applications](https://github.com/tock/libtock-c).
 
+Install [renode](https://renode.io/), the arm emulator.
+
 This template is a companian for the [Getting Started with Secure Embedded Systems](https://link.springer.com/book/10.1007/978-1-4842-7789-8#toc) book.
 
 Both projects provide really good getting started tutorials ([Tock](https://github.com/tock/tock/blob/master/doc/Getting_Started.md), 
